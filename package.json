@@ -1,16 +1,10 @@
 {
   "name": "@intelligo-group/eslint-config-ts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "pretest": "eslint --fix **/*.ts *.ts *.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run pretest"
-    }
   },
   "author": "",
   "license": "ISC",
@@ -21,8 +15,7 @@
   },
   "devDependencies": {
     "@typescript-eslint/parser": "^2.3.0",
-    "eslint": "^6.4.0",
-    "husky": "^3.0.5"
+    "eslint": "^6.4.0"
   },
   "repository": {
     "type": "git",
