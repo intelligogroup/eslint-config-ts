@@ -1,6 +1,6 @@
 {
-  "name": "@intelligo-group/eslint-config-ts",
-  "version": "1.0.4",
+  "name": "@intelligo.ai/eslint-config-ts",
+  "version": "2.0.5-1",
   "description": "",
   "main": "index.js",
   "scripts": {
