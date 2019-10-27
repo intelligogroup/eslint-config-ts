@@ -8,17 +8,26 @@
   },
   "author": "",
   "license": "ISC",
+
   "peerDependencies": {
-    "eslint": ">= 6.4.0",
-    "@typescript-eslint/parser": ">= 2.3.0",
-    "husky": ">= 3.0.5"
+    "@typescript-eslint/eslint-plugin": "^2.5.0",
+    "@typescript-eslint/parser": "^2.5.0",
+    "eslint": "^6.6.0",
+    "eslint-plugin-node": "^10.0.0",
+    "husky": "^3.0.9",
+    "typescript": "^3.6.4"
   },
   "devDependencies": {
-    "@typescript-eslint/parser": "^2.3.0",
-    "eslint": "^6.4.0"
+    "@typescript-eslint/eslint-plugin": "^2.5.0",
+    "@typescript-eslint/parser": "^2.5.0",
+    "eslint": "^6.6.0",
+    "eslint-plugin-node": "^10.0.0",
+    "husky": "^3.0.9",
+    "typescript": "^3.6.4"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/intelligogroup/eslint-config-ts.git"
-  }
+  },
+  "dependencies": {}
 }
