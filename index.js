@@ -14,6 +14,9 @@ module.exports = {
         "@typescript-eslint/no-var-requires": 1,
         "no-inner-declarations": 1,
         "require-atomic-updates": 1,
+        "node/no-extraneous-require": ["error", {
+            "allowModules": ['database', 'infra', 'scheduler', 'nlp', 'utility-adapter', 'infra_api', 'server-health']
+        }],
         // all should be errors
     }
 }
