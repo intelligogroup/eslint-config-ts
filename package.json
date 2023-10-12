@@ -1,6 +1,6 @@
 {
   "name": "@intelligo.ai/eslint-config-ts",
-  "version": "207.0.0",
+  "version": "207.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,11 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.5.0",
-    "@typescript-eslint/parser": "^2.5.0",
-    "eslint": "^6.6.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.5",
+    "@typescript-eslint/parser": "^6.7.5",
+    "eslint": "^8.51.0",
     "husky": "^3.0.9",
-    "typescript": "^3.6.4"
+    "typescript": "^5.2.2"
   },
   "repository": {
     "type": "git",
